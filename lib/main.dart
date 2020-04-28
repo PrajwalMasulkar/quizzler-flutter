@@ -25,7 +25,7 @@ class QuizPage extends StatefulWidget {
 }
 
 class _QuizPageState extends State<QuizPage> {
-  List<Widget> scoreKeeper = [
+  List<Icon> scoreKeeper = [
     Icon(
       Icons.check,
       color: Colors.green,
